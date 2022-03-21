@@ -1,0 +1,43 @@
+@startuml reportopening
+
+opening <|-- vrartpresentation
+note left of vrartpresentation:空間設計
+
+opening <|-- room
+note right of room:led制御
+
+opening <|-- artist
+note right of artist:3dモデリング、エフェクト、演出、ループアニメーション
+
+opening <|-- camera 
+note right of camera:カメラワーク、視点移動
+
+opening <|-- device
+note right of device:実機テスト
+
+
+@enduml
+
+@startuml sessionreport
+
+chomadosann <|-- php
+note left of php: サーバー側入門とかhtmlとcss
+chomadosann <|-- haskell
+note right of haskell: haskell、圏論系
+
+hiroyukisann <|-- originalframework
+note left of originalframework: 既存のフレームワークを自前
+amamiyasann <|-- rust
+
+yukihirosann <|-- ruby
+note left of ruby: 自前でのコンパイル機能開発
+note right of ruby: 言語解析
+
+@enduml
+
+@startuml deepsea
+chokudaisann <|-- programming
+note left of programming: C++でのプログラミング
+chokudaisann <|-- algorithm
+note left of algorithm: ルート最適化
+@enduml
