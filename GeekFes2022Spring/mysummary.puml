@@ -29,13 +29,16 @@ hiroyukisann <|-- originalframework
 note left of originalframework: 既存のフレームワークを自前
 amamiyasann <|-- rust
 
-yukihirosann <|-- ruby
-note left of ruby: 自前でのコンパイル機能開発
-note right of ruby: 言語解析
 
 @enduml
 
 @startuml deepsea
+
+yukihirosann <|-- ruby
+note left of ruby: 自前でのコンパイル機能開発
+note right of ruby: 言語解析
+
+
 chokudaisann <|-- programming
 note left of programming: C++でのプログラミング
 chokudaisann <|-- algorithm
